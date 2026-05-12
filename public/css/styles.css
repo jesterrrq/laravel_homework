@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    color: #000;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.4;
+}
+
+.about-container {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+.about-header {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.about-header h1 {
+    font-size: 1.5rem;
+    margin: 0 0 5px;
+}
+
+.about-content h2 {
+    font-size: 1.2rem;
+    margin: 15px 0 8px;
+}
+
+.contacts-list {
+    background: #f5f5f5;
+    padding: 10px;
+    margin: 10px 0;
+    border-left: 3px solid #999;
+}
+
+/* 🔹 Простая кнопка — без градиентов и эффектов */
+.btn-back {
+    display: inline-block;
+    padding: 8px 20px;
+    background: #666;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #555;
+    font-size: 0.9rem;
+}
+
+.btn-back:hover {
+    background: #555;
+}
+
+.footer-note {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #777;
+    text-align: center;
+}
