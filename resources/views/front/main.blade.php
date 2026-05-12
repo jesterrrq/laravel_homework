@@ -82,6 +82,15 @@
     <div class="container">
         <h1>📦 Каталог товаров</h1>
 
+        <div style="text-align: right; margin-bottom: 20px;">
+        <a href="{{ route('about') }}" 
+           style="display: inline-block; padding: 10px 25px; background: #667eea; color: white; 
+                  text-decoration: none; border-radius: 50px; font-weight: 500;
+                  transition: background 0.2s;">
+            ℹ️ О проекте
+        </a>
+    </div>
+
         @if($main->isEmpty())
             <div class="empty-message">
                 ⚠️ В базе данных пока нет записей.

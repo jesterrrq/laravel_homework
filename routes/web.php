@@ -8,3 +8,5 @@ Route::get('/', function () {
 });
 
 Route::get('/items', [MainController::class, 'index'])->name('items.index');
+
+Route::get('/about', [MainController::class, 'about'])->name('about');
